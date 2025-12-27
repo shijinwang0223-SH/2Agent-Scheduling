@@ -1,0 +1,111 @@
+Instance n=15 inst=8
+U_min=3 UB_eta=483.75
+
+[Moore(UB)]
+status=SEQ
+feasible=1
+eta=483.750000
+time=0.000000
+gap=0.000000
+z=0 0 0 0 1 0 0 1 0 0 1 0 0 0 0
+seq=5 12 8 6 9 11 14 3 1 13 2 0 7 10 4
+
+[MIP-P (NONE)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=38.253257
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=8 12 5 6 9 14 4 11 3 13 2 0 7 10 1
+
+[MIP-P (VI1)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=7.185228
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 11 8 5 6 9 4 14 3 13 2 0 7 10 1
+
+[MIP-P (VI2)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=38.348120
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=8 12 5 6 9 14 4 11 3 13 2 0 7 10 1
+
+[MIP-P (VI1+VI2)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=7.167794
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 11 8 5 6 9 4 14 3 13 2 0 7 10 1
+
+[MIP-P (VI3)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=11.633654
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 11 14 8 5 6 9 4 3 13 2 0 7 10 1
+
+[MIP-P (VI4)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=1.088217
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=8 12 5 9 6 14 4 11 3 13 2 0 7 10 1
+
+[MIP-P (VI5)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=38.251536
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=8 12 5 6 9 14 4 11 3 13 2 0 7 10 1
+
+[MIP-P (VI3+VI4+VI5)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=1.089694
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=8 12 5 9 6 14 4 11 3 13 2 0 7 10 1
+
+[MIP-P (ALL VI1..VI5)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=0.547164
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 5 8 14 6 9 11 4 3 13 2 0 7 10 1
+
+[MIP-P (VI1,VI5)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=7.168745
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 11 8 5 6 9 4 14 3 13 2 0 7 10 1
+
+[MIP-P (VI1,VI4)]
+status=Optimal
+feasible=1
+eta=49.821429
+time=0.544794
+gap=0.000000
+z=0 1 0 0 0 0 0 1 0 0 1 0 0 0 0
+seq=12 5 8 14 6 9 11 4 3 13 2 0 7 10 1
+

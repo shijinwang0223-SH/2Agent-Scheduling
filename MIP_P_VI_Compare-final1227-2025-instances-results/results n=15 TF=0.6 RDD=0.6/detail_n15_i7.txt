@@ -1,0 +1,111 @@
+Instance n=15 inst=7
+U_min=3 UB_eta=762.714
+
+[Moore(UB)]
+status=SEQ
+feasible=1
+eta=762.714286
+time=0.000000
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=2 12 14 13 1 11 0 5 8 9 7 10 4 6 3
+
+[MIP-P (NONE)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=51.660101
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=13 2 12 14 1 11 0 9 5 8 10 7 6 4 3
+
+[MIP-P (VI1)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=5.383355
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=9 12 13 2 11 14 5 1 0 8 10 7 6 4 3
+
+[MIP-P (VI2)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=51.341531
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=13 2 12 14 1 11 0 9 5 8 10 7 6 4 3
+
+[MIP-P (VI1+VI2)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=5.403631
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=9 12 13 2 11 14 5 1 0 8 10 7 6 4 3
+
+[MIP-P (VI3)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=50.139294
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=13 2 12 11 14 5 9 1 0 8 10 7 6 4 3
+
+[MIP-P (VI4)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=0.958539
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=14 2 12 0 13 11 9 1 5 8 10 7 6 4 3
+
+[MIP-P (VI5)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=51.307257
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=13 2 12 14 1 11 0 9 5 8 10 7 6 4 3
+
+[MIP-P (VI3+VI4+VI5)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=0.683031
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=2 12 14 11 13 9 0 1 5 8 7 10 6 4 3
+
+[MIP-P (ALL VI1..VI5)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=0.234526
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=12 2 0 14 9 13 5 1 11 8 10 7 6 4 3
+
+[MIP-P (VI1,VI5)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=5.397001
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=9 12 13 2 11 14 5 1 0 8 10 7 6 4 3
+
+[MIP-P (VI1,VI4)]
+status=Optimal
+feasible=1
+eta=711.714286
+time=0.145023
+gap=0.000000
+z=0 0 0 1 1 0 1 0 0 0 0 0 0 0 0
+seq=12 2 9 13 11 14 0 1 5 8 7 10 6 4 3
+

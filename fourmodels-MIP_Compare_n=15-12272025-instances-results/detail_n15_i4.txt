@@ -1,0 +1,78 @@
+Instance n=15 inst=4 TF=0.6 RDD=0.6
+U_min=4 UB_eta=11.9286
+
+[Moore]
+status=SEQ
+feasible=1
+eta=11.928571
+time=0.000000
+gap=0.000000
+iters=0
+cuts=0
+z=0 0 0 1 1 0 0 1 0 1 0 0 0 0 0
+seq=10 8 6 11 14 5 0 13 1 12 2 3 7 4 9
+
+[MIP-P]
+status=Optimal
+feasible=1
+eta=0.071429
+time=60.223947
+gap=0.000000
+iters=0
+cuts=0
+z=0 0 0 1 0 0 1 1 0 1 0 0 0 0 0
+seq=14 11 10 13 8 4 5 12 1 0 2 9 3 6 7
+
+[MIP-P+VI]
+status=Optimal
+feasible=1
+eta=0.071429
+time=9.255780
+gap=0.000000
+iters=0
+cuts=0
+z=0 0 0 1 0 0 1 1 0 1 0 0 0 0 0
+seq=12 10 8 14 0 4 11 5 1 13 2 9 3 6 7
+
+[TwoStage(P) exact]
+status=MasterExhausted
+feasible=1
+eta=0.071429
+time=66.092697
+gap=0.000000
+iters=124
+cuts=258
+z=0 0 0 1 0 0 1 1 0 1 0 0 0 0 0
+seq=13 10 8 14 11 4 5 0 1 2 12 9 3 6 7
+
+[TwoStage(P)+VI exact]
+status=MasterExhausted
+feasible=1
+eta=0.071429
+time=6.590301
+gap=0.000000
+iters=79
+cuts=78
+z=0 0 0 1 0 0 1 1 0 1 0 0 0 0 0
+seq=13 11 10 12 8 4 14 5 1 0 2 9 3 6 7
+
+[MIP-T2]
+status=Feasible
+feasible=1
+eta=0.178571
+time=1800.269042
+gap=1.000000
+iters=0
+cuts=0
+z=0 0 0 1 0 1 0 1 0 0 0 0 0 0 1
+
+[MIP-T2+VI]
+status=Feasible
+feasible=1
+eta=0.071429
+time=1800.067427
+gap=1.000000
+iters=0
+cuts=0
+z=0 0 0 1 0 0 1 1 0 1 0 0 0 0 0
+
